@@ -18,9 +18,18 @@ Manufacturing lots 1 and 2 meet the design specifications as their variance in P
 ![](Resources/lot_summary.png)
 
 ## T-Tests on Suspension Coils
-The t-test results comparing the PSI across all manufacturing lots showed a p-value of 0.45 which is below a significance level of 0.05%. With this result, we can reject the null hypothesis, meaning PSI is statistically different across all manufacturing lots.
+The t-test results comparing the PSI across all manufacturing lots showed a p-value of 0.45. With this result, we can reject the null hypothesis, meaning PSI is statistically different across all manufacturing lots.
 
-![](Resources/t.test_all_lots.png)
+![](Resources/t.test_all.png)
+
+#### T-Test on Suspension Coils by Lot
+When we look at the mean PSI at the specific manufacutring lot level, we find that only for Lot 3 is there a significant p-value (p-value 0.04). The p-values for both Lots 1 and 2 were high (p-values of 1 and 0.61 respectively). The p-value results for both Lots 1 and 2 were insignificant which mean we cannot reject the null hypothesis and mean PSI values observed for manufacturing lots 1 and 2 reflect the man PSI of our population.
+
+![](Resources/t.test_Lot1.png)
+
+![](Resources/t.test_Lot2.png)
+
+![](Resources/t.test_Lot3.png)
 
 ## Study Design: MechaCar vs Competition
 A consumer study of interest comparing the MechaCar to a competitor would be the fuel efficiency of the vehicles. Our null hypothesis in this study would be there is no difference in the fuel efficiency of the MechaCar compared to the competitor vehicle. Our alternative hypothesis in this study would be the MechaCar is more fuel efficient compared to the competitor vehicle.
